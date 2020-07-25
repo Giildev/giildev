@@ -1,0 +1,196 @@
+html {
+  font-family: "Lato", sans-serif;
+}
+
+/* Personal Info */
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.containerPosition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.profile {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profilePosition {
+  width: 350px;
+  height: 350px;
+  padding: 6px;
+  background: linear-gradient(to bottom, #0784a8, #12205a);
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 54px;
+  font-weight: 900;
+  color: #12205a;
+  text-transform: uppercase;
+}
+
+.profession {
+  font-size: 32px;
+  color: #0784a8;
+  text-transform: capitalize;
+  margin: 8px 0;
+}
+
+.summary {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* Content Area */
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+  width: 100%;
+  font-weight: 300;
+}
+
+.leftContent {
+  /* background-color: red; */
+  /* flex: 1 1 auto; */
+  width: 45%;
+  text-align: end;
+}
+
+.rightContent {
+  /* background-color: blue; */
+  /* flex: 4 1 auto; */
+  width: 45%;
+}
+
+.title {
+  font-size: 44px;
+  font-weight: 900;
+  margin: 10px 0 50px 0;
+  color: #0784a8;
+}
+
+.title:nth-child(2) {
+  margin: 50px 0;
+}
+
+.role,
+.projectName {
+  font-size: 36px;
+  font-weight: 900;
+  color: #12205a;
+}
+
+.company,
+.projectUrl {
+  font-size: 24px;
+  color: #0784a8;
+}
+
+.date {
+  font-size: 14px;
+  color: #dbdbdb;
+}
+
+.description {
+  margin: 20px 0;
+}
+
+.divider {
+  width: 8px;
+  border-radius: 4px;
+  margin: 0 80px;
+  /* flex: 2 1 auto; */
+  background: linear-gradient(to bottom, #12205a, #0784a8);
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+}
+
+.skillName {
+  color: #0784a8;
+  font-weight: 300;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.skillBar {
+  width: 100%;
+  height: 8px;
+  background-color: #dbdbdb;
+}
+
+.skillCompleted {
+  height: 8px;
+  background-color: #12205a;
+  float: right;
+}
+
+#frontEnd {
+  width: 80%;
+}
+#backEnd {
+  width: 70%;
+}
+#db {
+  width: 60%;
+}
+#uiux {
+  width: 40%;
+}
+#devops {
+  width: 50%;
+}
+#tl {
+  width: 60%;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+}
+
+.projectPosition {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projectImgPosition {
+  max-width: 30%;
+}
+
+.projectImg {
+  max-height: 100px;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.contactText {
+  font-size: 28px;
+  color: #12205a;
+  margin: 0 20px;
+}
